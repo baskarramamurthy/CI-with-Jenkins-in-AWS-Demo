@@ -1,8 +1,8 @@
 pipeline {
         agent any
         environment {
-            registry = "dockerhubcredential/Docker@2020"
-            registryCredential = 'Jenkins-docker-key'
+            registry = "bramamu/docker@2020"
+            registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'my-first-project-279411'
  		CLUSTER_NAME = 'sprint6-k8-cluster '
