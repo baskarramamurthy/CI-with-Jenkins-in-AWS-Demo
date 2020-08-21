@@ -5,7 +5,7 @@ pipeline {
             registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'my-first-project-279411'
- 		CLUSTER_NAME = 'sprint6-k8-cluster '
+ 		CLUSTER_NAME = 'sprint6-k8-cluster'
  		LOCATION = 'us-central1-c'
  		CREDENTIALS_ID = 'sprint6-k8'
         }
