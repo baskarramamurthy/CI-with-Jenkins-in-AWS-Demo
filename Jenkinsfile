@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "bramamu/sprint6dockerjenkinsgcloud"
+            registry = "bramamu/sprint6dockerjenkins"
             registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'my-first-project-279411'
