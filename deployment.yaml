@@ -1,4 +1,4 @@
-apiVersion: apps/v22
+apiVersion: apps/v21
 kind: Deployment 
 metadata:
   name: mytestapp 
